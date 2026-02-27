@@ -1,0 +1,54 @@
+/* use of basic syntax */
+/* color picker 
+Background: #111827
+
+Form Container: #1F2937
+
+Heading Text: #F9FAFB
+
+Input Border: #374151
+
+Button: #3B82F6
+
+Button Text: #FFFFFF */
+h1{
+    color: #F9FAFB;
+}
+
+body{
+    background-color: #111827;
+    font-family: Arial, sans-serif;
+}
+
+p{
+    color: #F9FAFB;
+}
+
+button{
+    color: #FFFFFF;
+    background-color: #3B82F6;
+    border: 1px solid #374151;
+    padding: 10px 20px;
+    border-radius: 2px;
+    text-align: center;
+}
+
+label{
+    color: #F9FAFB;
+}
+
+#city{
+    color: #111827;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}
+
+span{
+    text-align: center;
+}
