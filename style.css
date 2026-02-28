@@ -46,9 +46,24 @@ h1{
 }
 
 form{
-    text-align: center;
+    text-align: left;
 }
 
 span{
     text-align: center;
 }
+
+div{
+    margin: 10px;
+}
+
+main{
+    text-align: left;
+}
+
+.box{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+}
+

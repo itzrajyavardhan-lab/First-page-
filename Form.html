@@ -1,95 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Form</title>
-    <link rel ="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Student Registration Form (Science Stream)</h1>
     <!-- Use of form tag and input tag -->
     <form action="/action.php">
-        <input type="text"placeholder="Enter Name">
-        <input type="text" placeholder="Enter Roll No."></form>
-        <br><br>
+        <div class="box">
+            <input type="text" placeholder="Enter Name">
+            <input type="text" placeholder="Enter Roll No.">
+    </form>
+    </div>
+    <br><br>
     <!-- use of lable tag and radio button -->
-     <p> Choose your course:</p>
-     <label for="id1">
-        <input type="radio" value="JEE " name="class" id="id1";>JEE 
-    </label>
-    <br><br>
-    <label for="id2">
-        <input type="radio" value="NEET " name="class" id="id2">NEET 
-     </label>
-     <p>Choose your class:</p>
-    <label for="id1">
-        <input type="radio" value="Class XI" name="class" id="id1">Class XI
-    </label>
-    <br><br>
-    <label for="id2">
-        <input type="radio" value="Class XII" name="class" id="id2">Class XII
-    </label>
-    <br><br>
-     <p>Choose your Gender:</p>
-      <label for="id1">
-        <input type="radio" value="Male" name="gender" id="id1">Male
-      </label>
+    <main>
+        <div class="options">
+            <div class="course">
+                <p> Choose your course:</p>
+                <label for="id1">
+                    <input type="radio" value="JEE " name="class" id="id1" ;>JEE
+                </label>
+                <br><br>
+                <label for="id2">
+                    <input type="radio" value="NEET " name="class" id="id2">NEET
+                </label>
+            </div>
+            <div class="class">
+                <p>Choose your class:</p>
+                <label for="id1">
+                    <input type="radio" value="Class XI" name="class" id="id1">Class XI
+                </label>
+                <br><br>
+                <label for="id2">
+                    <input type="radio" value="Class XII" name="class" id="id2">Class XII
+                </label>
+            </div>
+            <br><br>
+            <p>Choose your Gender:</p>
+            <label for="id1">
+                <input type="radio" value="Male" name="gender" id="id1">Male
+            </label>
 
-      <label for="id2">
-        <input type="radio" value="Female" name="gender" id="id2">Female    
-        </label>
+            <label for="id2">
+                <input type="radio" value="Female" name="gender" id="id2">Female
+            </label>
 
-     <label for="id3">
-        <input type="radio" value="Transgender" name="gender" id="id3">Transgender    
-        </label>
-     <!-- use of radio -->
-      <p>Choose your category:</p>
-      <label for="id1">
-        <input type="radio" value="General" name="class" id="id1">General
-      </label>
+            <label for="id3">
+                <input type="radio" value="Transgender" name="gender" id="id3">Transgender
+            </label>
+            <!-- use of radio -->
+            <p>Choose your category:</p>
+            <label for="id1">
+                <input type="radio" value="General" name="class" id="id1">General
+            </label>
 
-      <label for="id2">
-        <input type="radio" value="SC" name="class" id="id2">SC    
-        </label>
+            <label for="id2">
+                <input type="radio" value="SC" name="class" id="id2">SC
+            </label>
 
-     <label for="id3">
-        <input type="radio" value="ST" name="class" id="id3">ST    
-        </label>
+            <label for="id3">
+                <input type="radio" value="ST" name="class" id="id3">ST
+            </label>
 
-    <label for="id4">
-        <input type="radio" value="OBC" name="class" id="id4">OBC    
-        </label>
-        <br><br>
-        <p>Choose your optional subjects:</p>
-        <!-- use of checkbox -->
-         <label for="id1">  
-        <input type="checkbox" value="Computer Science" name="subject" id="id1">Computer Science
+            <label for="id4">
+                <input type="radio" value="OBC" name="class" id="id4">OBC
+            </label>
+            <br><br>
+            <p>Choose your optional subjects:</p>
+            <!-- use of checkbox -->
+            <label for="id1">
+                <input type="checkbox" value="Computer Science" name="subject" id="id1">Computer Science
 
-         <label for="id2">  
-        <input type="checkbox" value="Physical Education" name="subject" id="id2">Physical Education
+                <label for="id2">
+                    <input type="checkbox" value="Physical Education" name="subject" id="id2">Physical Education
 
-         <label for="id3">  
-        <input type="checkbox" value="Biotechnology" name="subject" id="id3">Biotechnology
-        </label>
-        <br><br>
-         <!-- use of select tag and option tag -->
-        <p>Choose your Centre</p>
-        <select name="city" id="city">
-            <option value="Begusarai">Begusarai</option>
-            <option value="Samastipura">Samastipura</option>
-            <option value="Muzaffarpur">Muzaffarpur</option>
-            <option value="Patna">Patna</option>
-        </select>
-            <br><br>    
-            <!-- <use of textarea tag -->
-             <p> Any feedback for us ? </p>
-        <textarea name="Feedback"id="feedback" placeholder="Please give your feedback here">
+                    <label for="id3">
+                        <input type="checkbox" value="Biotechnology" name="subject" id="id3">Biotechnology
+                    </label>
+                    <br><br>
+                    <!-- use of select tag and option tag -->
+                    <p>Choose your Centre</p>
+                    <select name="city" id="city">
+                        <option value="Begusarai">Begusarai</option>
+                        <option value="Samastipura">Samastipura</option>
+                        <option value="Muzaffarpur">Muzaffarpur</option>
+                        <option value="Patna">Patna</option>
+                    </select>
+                    <br><br>
+                    <!-- <use of textarea tag -->
+                    <p> Any feedback for us ? </p>
+                    <textarea name="Feedback" id="feedback" placeholder="Please give your feedback here">
         </textarea>
+    </main>
     </form>
     <br>
     <!-- use of button tag -->
     <button>Submit</button>
-    
+
 </body>
+
 </html>
