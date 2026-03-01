@@ -1,66 +1,74 @@
-h1{
-    color:blue;
-    /* Ab Text-aling propety ko samajhte hai */
-    text-align: center;
-    /* Ab text-decoration property ko samajhte hai  */
-    text-decoration: underline;
-    /* Ab font-weight property ko samajhte hai   */
-    font-weight: lighter;
-    /* Ab font-style property ko samajhte hai   */
-    font-style: italic;
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+#logo{
+    color:#f08804;
+    font-size: 25px;
+}
+
+button{
+    background-color: #f08804;
+    color:white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: normal;
+    margin-right: 120px;
+}
+
+#one{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.5);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 150px;
+    margin-right:20px;
+    margin-left:20px;
+
+}
+
+#two{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.5);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#three{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: rgba(240, 248, 255, 0.5);
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#container{
+    height:400px;
+}
+
+#footer{
+    background-color:#0f1111;
 }
 
 p{
-    color: pink;
+    color:aliceblue;
     text-align: center;
-    text-decoration: overline;
 }
 
-/*  Ab background color change karne ke liye hum body tag me css likhenge  */
-
-body{
-    background-color: #000000;
-}
-
-/* Ab Color system ko samajhte hai */
-/* color system two type ke hote hai 
-1st RGB (Red, Green, Blue)
-2nd HEX (Hexadecimal) */
-
-/* RGB System */
-#red{
-    color: rgb(255, 0, 0);
-}
-
-#green{
-    color: rgb(0, 255, 0);
-}                          
-
-#blue{
-    color: rgb(0, 0, 255);
-}
-
-/* HEX System */
-#Hexred{
-    color: #FF0000;
-}
-
-#Hexgreen{
-    color: #00FF00;
-}
-
-#Hexblue{
-    color: #0000FF;
-}
-
-h1{
-    /* Ab font-family property ko samajhte hai    */
-    font-family: 'arial';
-    /* Ab pixels me font-size property ko samajhte hai   */
-    font-size: 40px;
-    /* Ab line height property ko samajhte hai    */
-    line-height: 50px;
-    /* Ab text transform property ko samajhte hai    */
-    text-transform: uppercase; 
-
-}
