@@ -1,0 +1,66 @@
+h1{
+    color:blue;
+    /* Ab Text-aling propety ko samajhte hai */
+    text-align: center;
+    /* Ab text-decoration property ko samajhte hai  */
+    text-decoration: underline;
+    /* Ab font-weight property ko samajhte hai   */
+    font-weight: lighter;
+    /* Ab font-style property ko samajhte hai   */
+    font-style: italic;
+}
+
+p{
+    color: pink;
+    text-align: center;
+    text-decoration: overline;
+}
+
+/*  Ab background color change karne ke liye hum body tag me css likhenge  */
+
+body{
+    background-color: #000000;
+}
+
+/* Ab Color system ko samajhte hai */
+/* color system two type ke hote hai 
+1st RGB (Red, Green, Blue)
+2nd HEX (Hexadecimal) */
+
+/* RGB System */
+#red{
+    color: rgb(255, 0, 0);
+}
+
+#green{
+    color: rgb(0, 255, 0);
+}                          
+
+#blue{
+    color: rgb(0, 0, 255);
+}
+
+/* HEX System */
+#Hexred{
+    color: #FF0000;
+}
+
+#Hexgreen{
+    color: #00FF00;
+}
+
+#Hexblue{
+    color: #0000FF;
+}
+
+h1{
+    /* Ab font-family property ko samajhte hai    */
+    font-family: 'arial';
+    /* Ab pixels me font-size property ko samajhte hai   */
+    font-size: 40px;
+    /* Ab line height property ko samajhte hai    */
+    line-height: 50px;
+    /* Ab text transform property ko samajhte hai    */
+    text-transform: uppercase; 
+
+}
